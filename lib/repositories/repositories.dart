@@ -3,7 +3,7 @@ import 'package:flutter_secure_storage/flutter_secure_storage.dart';
 
 class UserRepository {
   static String mainUrl = "http://13.214.109.31:8083/";
-  var loginUrl = '$mainUrl/api/login';
+  var loginUrl = '$mainUrl/login';
 
   final FlutterSecureStorage storage = new FlutterSecureStorage();
   final Dio _dio = Dio();

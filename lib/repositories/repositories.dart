@@ -2,7 +2,7 @@ import 'package:dio/dio.dart';
 import 'package:flutter_secure_storage/flutter_secure_storage.dart';
 
 class UserRepository {
-  static String mainUrl = "https://reqres.in";
+  static String mainUrl = "http://13.214.109.31:8083/";
   var loginUrl = '$mainUrl/api/login';
 
   final FlutterSecureStorage storage = new FlutterSecureStorage();
